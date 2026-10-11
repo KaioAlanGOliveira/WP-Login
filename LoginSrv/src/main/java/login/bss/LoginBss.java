@@ -16,6 +16,7 @@ public class LoginBss {
 
 	public void salvar(LoginDomain login) {
 		try {
+			System.out.println(login);
 			em.merge(login);
 		} catch (Exception e) {
 			e.printStackTrace();

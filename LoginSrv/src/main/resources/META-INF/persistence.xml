@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             version="3.1">
+
+    <persistence-unit name="MeuPu" transaction-type="JTA">
+        <jta-data-source>java:jboss/datasources/MySQLDS</jta-data-source>
+    </persistence-unit>
+
+</persistence>

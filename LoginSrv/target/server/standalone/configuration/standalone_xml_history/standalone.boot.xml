@@ -2,11 +2,13 @@
 
 <server xmlns="urn:jboss:domain:community:20.0">
     <extensions>
+        <extension module="org.jboss.as.clustering.infinispan"/>
         <extension module="org.jboss.as.connector"/>
         <extension module="org.jboss.as.deployment-scanner"/>
         <extension module="org.jboss.as.ee"/>
         <extension module="org.jboss.as.jaxrs"/>
         <extension module="org.jboss.as.jmx"/>
+        <extension module="org.jboss.as.jpa"/>
         <extension module="org.jboss.as.logging"/>
         <extension module="org.jboss.as.naming"/>
         <extension module="org.jboss.as.remoting"/>
@@ -271,6 +273,24 @@
                 </server-ssl-contexts>
             </tls>
         </subsystem>
+        <subsystem xmlns="urn:jboss:domain:infinispan:16.0">
+            <cache-container name="hibernate" modules="org.infinispan.hibernate-cache" marshaller="JBOSS">
+                <local-cache name="entity">
+                    <heap-memory size="10000"/>
+                    <expiration max-idle="100000"/>
+                </local-cache>
+                <local-cache name="local-query">
+                    <heap-memory size="10000"/>
+                    <expiration max-idle="100000"/>
+                </local-cache>
+                <local-cache name="timestamps">
+                    <expiration interval="0"/>
+                </local-cache>
+                <local-cache name="pending-puts">
+                    <expiration max-idle="60000"/>
+                </local-cache>
+            </cache-container>
+        </subsystem>
         <subsystem xmlns="urn:jboss:domain:io:4.0" default-worker="default">
             <worker name="default"/>
         </subsystem>
@@ -298,6 +318,9 @@
             <expose-resolved-model/>
             <expose-expression-model/>
             <remoting-connector/>
+        </subsystem>
+        <subsystem xmlns="urn:jboss:domain:jpa:1.1">
+            <jpa default-extended-persistence-inheritance="DEEP"/>
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:naming:2.0"/>
         <subsystem xmlns="urn:jboss:domain:remoting:8.0">

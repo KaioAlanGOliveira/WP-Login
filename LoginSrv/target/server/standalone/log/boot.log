@@ -1,7 +1,7 @@
-2026-10-02 05:27:54,458 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.6.Final
-2026-10-02 05:27:55,688 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.6.Final
-2026-10-02 05:27:55,802 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly 40.0.1.Final (WildFly Core 32.0.2.Final) starting
-2026-10-02 05:27:55,803 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+2026-10-11 13:27:09,763 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.6.Final
+2026-10-11 13:27:10,715 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.6.Final
+2026-10-11 13:27:10,837 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly 40.0.1.Final (WildFly Core 32.0.2.Final) starting
+2026-10-11 13:27:10,839 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
 	file.encoding = UTF-8
 	file.separator = \
 	java.awt.headless = true
@@ -83,31 +83,32 @@
 	user.script = 
 	user.timezone = America/Sao_Paulo
 	user.variant = 
-2026-10-02 05:27:55,807 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -XX:+ShowCodeDetailsInExceptionMessages -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:21333 -Dprogram.name=JBossTools: WildFly 40 -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\log\boot.log -Dlogging.configuration=file:C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\configuration\logging.properties -Djboss.home.dir=C:\SN8\git\WP-Login\LoginSrv\target\server -Dorg.jboss.logmanager.nocolor=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8 
-2026-10-02 05:27:56,628 INFO  [org.wildfly.security] (Controller Boot Thread) ELY00001: WildFly Elytron version 2.9.0.Final
-2026-10-02 05:27:56,983 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 9) WFLYDR0001: Content added at location C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\data\content\48\a728788aec2d87f1f18a349509ef09225f7799\content
-2026-10-02 05:27:57,009 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
-2026-10-02 05:27:57,026 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.8.16.Final
-2026-10-02 05:27:57,034 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.8.16.Final
-2026-10-02 05:27:57,059 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 34) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
-2026-10-02 05:27:57,076 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 31) WFLYNAM0001: Activating Naming Subsystem
-2026-10-02 05:27:57,098 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 27) WFLYIO001: Worker 'default' has auto-configured to 24 IO threads with 192 max task threads based on your 12 available processors
-2026-10-02 05:27:57,113 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.19.Final)
-2026-10-02 05:27:57,117 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
-2026-10-02 05:27:57,151 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
-2026-10-02 05:27:57,155 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 28) WFLYRS0016: RESTEasy version 7.0.2.Final
-2026-10-02 05:27:57,177 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.31.Final
-2026-10-02 05:27:57,202 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 2.4.1.Final starting
-2026-10-02 05:27:57,220 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 23) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 9.6)
-2026-10-02 05:27:57,222 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY00023: KeyStore file 'C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\configuration\application.keystore' does not exist. Used blank.
-2026-10-02 05:27:57,230 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = mysql
-2026-10-02 05:27:57,238 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY01084: KeyStore C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
-2026-10-02 05:27:57,240 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 35) WFLYUT0112: The value 'require-host-http11' attribute in the '/subsystem=undertow/server=default-server/http-listener=default' resource is 'false', which will be ignored. The server now always enforces the RFC 9112 requirement that HTTP/1.1 request messages include a Host header.
-2026-10-02 05:27:57,255 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 23) WFLYCTL0013: Operation ("add") failed - address: ([
+2026-10-11 13:27:10,842 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -XX:+ShowCodeDetailsInExceptionMessages -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:56741 -Dprogram.name=JBossTools: WildFly 40 -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\log\boot.log -Dlogging.configuration=file:C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\configuration\logging.properties -Djboss.home.dir=C:\SN8\git\WP-Login\LoginSrv\target\server -Dorg.jboss.logmanager.nocolor=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8 
+2026-10-11 13:27:12,264 INFO  [org.wildfly.security] (Controller Boot Thread) ELY00001: WildFly Elytron version 2.9.0.Final
+2026-10-11 13:27:12,782 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 7) WFLYDR0001: Content added at location C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\data\content\30\0597ea964cae9c5b621a5f5734551ae29ff094\content
+2026-10-11 13:27:12,813 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2026-10-11 13:27:12,831 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.8.16.Final
+2026-10-11 13:27:12,844 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.8.16.Final
+2026-10-11 13:27:12,875 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 38) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2026-10-11 13:27:12,884 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 29) WFLYCLINF0001: Activating Infinispan subsystem.
+2026-10-11 13:27:12,891 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 31) WFLYRS0016: RESTEasy version 7.0.2.Final
+2026-10-11 13:27:12,903 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 35) WFLYNAM0001: Activating Naming Subsystem
+2026-10-11 13:27:12,918 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 30) WFLYIO001: Worker 'default' has auto-configured to 24 IO threads with 192 max task threads based on your 12 available processors
+2026-10-11 13:27:12,936 INFO  [org.jboss.as.connector] (MSC service thread 1-9) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.19.Final)
+2026-10-11 13:27:12,945 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2026-10-11 13:27:13,013 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2026-10-11 13:27:13,061 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.31.Final
+2026-10-11 13:27:13,085 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-3) WFLYELY00023: KeyStore file 'C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\configuration\application.keystore' does not exist. Used blank.
+2026-10-11 13:27:13,086 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.4.1.Final starting
+2026-10-11 13:27:13,111 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-3) WFLYELY01084: KeyStore C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2026-10-11 13:27:13,111 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 25) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 9.6)
+2026-10-11 13:27:13,120 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = mysql
+2026-10-11 13:27:13,133 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 39) WFLYUT0112: The value 'require-host-http11' attribute in the '/subsystem=undertow/server=default-server/http-listener=default' resource is 'false', which will be ignored. The server now always enforces the RFC 9112 requirement that HTTP/1.1 request messages include a Host header.
+2026-10-11 13:27:13,167 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 25) WFLYCTL0013: Operation ("add") failed - address: ([
     ("subsystem" => "datasources"),
     ("data-source" => "MySQLDS")
 ]) - Stage: (RUNTIME) - failure description: "WFLYCTL0211: Cannot resolve expression '${org.wildfly.datasources.mysql.user-name,env.MYSQL_USER,env.OPENSHIFT_MYSQL_DB_USERNAME}'"
-2026-10-02 05:27:57,278 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
-2026-10-02 05:27:57,279 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) Queuing requests.
-2026-10-02 05:27:57,280 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
-2026-10-02 05:27:57,301 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2026-10-11 13:27:13,207 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-9) WFLYUT0012: Started server default-server.
+2026-10-11 13:27:13,208 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) Queuing requests.
+2026-10-11 13:27:13,210 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2026-10-11 13:27:13,244 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080

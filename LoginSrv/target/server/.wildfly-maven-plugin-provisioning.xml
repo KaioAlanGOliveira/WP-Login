@@ -12,6 +12,8 @@
     <config model="standalone" name="standalone.xml">
         <layers>
             <include name="ee-core-profile-server"/>
+            <include name="jpa"/>
+            <include name="jaxrs"/>
             <include name="mysql-default-datasource"/>
         </layers>
     </config>
