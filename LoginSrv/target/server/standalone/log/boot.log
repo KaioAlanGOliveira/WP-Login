@@ -1,0 +1,113 @@
+2026-10-02 05:27:54,458 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.6.Final
+2026-10-02 05:27:55,688 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.6.Final
+2026-10-02 05:27:55,802 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly 40.0.1.Final (WildFly Core 32.0.2.Final) starting
+2026-10-02 05:27:55,803 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\SN8\git\WP-Login\LoginSrv\target\server\jboss-modules.jar
+	java.class.version = 65.0
+	java.home = C:\WP\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.10.v20260205-0638\jre
+	java.io.tmpdir = C:\Users\Kaio\AppData\Local\Temp\
+	java.library.path = C:\WP\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.10.v20260205-0638\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WP\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.10.v20260205-0638\jre\bin;native;C:/WP/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.10.v20260205-0638/jre/bin/server;C:/WP/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.10.v20260205-0638/jre/bin;%PATH%;C:\apache-maven-3.9.16\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Kaio\AppData\Local\Microsoft\WindowsApps;C:\Users\Kaio\AppData\Roaming\npm;C:\Program Files (x86)\Nmap;C:\Users\Kaio\AppData\Local\Programs\Microsoft VS Code\bin;C:\apache-maven-3.9.16\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Kaio\AppData\Local\Microsoft\WindowsApps;C:\Users\Kaio\AppData\Roaming\npm;C:\Program Files (x86)\Nmap;C:\Users\Kaio\AppData\Local\Programs\Microsoft VS Code\bin;C:\apache-maven-3.9.16\bin;C:\apache-maven-3.9.16\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Kaio\AppData\Local\Microsoft\WindowsApps;C:\Users\Kaio\AppData\Roaming\npm;C:\Program Files (x86)\Nmap;C:\Users\Kaio\AppData\Local\Programs\Microsoft VS Code\bin;C:\apache-maven-3.9.16\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Kaio\AppData\Local\Microsoft\WindowsApps;C:\Users\Kaio\AppData\Roaming\npm;C:\Program Files (x86)\Nmap;C:\Users\Kaio\AppData\Local\Programs\Microsoft VS Code\bin;C:\apache-maven-3.9.16\bin;C:\apache-maven-3.9.16\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Kaio\AppData\Local\Microsoft\WindowsApps;C:\Users\Kaio\AppData\Roaming\npm;C:\Program Files (x86)\Nmap;C:\Users\Kaio\AppData\Local\Programs\Microsoft VS Code\bin;C:\apache-maven-3.9.16\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Kaio\AppData\Local\Microsoft\WindowsApps;C:\Users\Kaio\AppData\Roaming\npm;C:\Program Files (x86)\Nmap;C:\Users\Kaio\AppData\Local\Programs\Microsoft VS Code\bin;C:\apache-maven-3.9.16\bin;C:\Program Files\Eclipse Adoptium\ jdk-21.0.11.10-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.11.10-hotspot\bin;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.16\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Kaio\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Nmap;C:\Users\Kaio\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Kaio\AppData\Roaming\npm;C:\WP\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 21.0.10+7-LTS
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 21
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Adoptium
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-21.0.10+7
+	java.version = 21.0.10
+	java.version.date = 2026-01-20
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 21
+	java.vm.vendor = Eclipse Adoptium
+	java.vm.version = 21.0.10+7-LTS
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\SN8\git\WP-Login\LoginSrv\target\server
+	jboss.host.name = wif
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = wif
+	jboss.qualified.host.name = wif
+	jboss.server.base.dir = C:\SN8\git\WP-Login\LoginSrv\target\server\standalone
+	jboss.server.config.dir = C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\configuration
+	jboss.server.data.dir = C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\data
+	jboss.server.log.dir = C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\log
+	jboss.server.name = wif
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\tmp
+	jboss.threads.eqe.statistics = true
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\configuration\logging.properties
+	module.path = C:\SN8\git\WP-Login\LoginSrv\target\server\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 40
+	stderr.encoding = UTF-8
+	stdout.encoding = UTF-8
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\WP\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.10.v20260205-0638\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\SN8\git\WP-Login\LoginSrv\target\server\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\SN8\git\WP-Login\LoginSrv\target\server\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\SN8\git\WP-Login\LoginSrv\target\server\bin
+	user.home = C:\Users\Kaio
+	user.language = pt
+	user.name = Kaio
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2026-10-02 05:27:55,807 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -XX:+ShowCodeDetailsInExceptionMessages -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:21333 -Dprogram.name=JBossTools: WildFly 40 -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\log\boot.log -Dlogging.configuration=file:C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\configuration\logging.properties -Djboss.home.dir=C:\SN8\git\WP-Login\LoginSrv\target\server -Dorg.jboss.logmanager.nocolor=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8 
+2026-10-02 05:27:56,628 INFO  [org.wildfly.security] (Controller Boot Thread) ELY00001: WildFly Elytron version 2.9.0.Final
+2026-10-02 05:27:56,983 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 9) WFLYDR0001: Content added at location C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\data\content\48\a728788aec2d87f1f18a349509ef09225f7799\content
+2026-10-02 05:27:57,009 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2026-10-02 05:27:57,026 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.8.16.Final
+2026-10-02 05:27:57,034 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.8.16.Final
+2026-10-02 05:27:57,059 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 34) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2026-10-02 05:27:57,076 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 31) WFLYNAM0001: Activating Naming Subsystem
+2026-10-02 05:27:57,098 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 27) WFLYIO001: Worker 'default' has auto-configured to 24 IO threads with 192 max task threads based on your 12 available processors
+2026-10-02 05:27:57,113 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.19.Final)
+2026-10-02 05:27:57,117 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2026-10-02 05:27:57,151 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2026-10-02 05:27:57,155 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 28) WFLYRS0016: RESTEasy version 7.0.2.Final
+2026-10-02 05:27:57,177 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.31.Final
+2026-10-02 05:27:57,202 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 2.4.1.Final starting
+2026-10-02 05:27:57,220 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 23) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 9.6)
+2026-10-02 05:27:57,222 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY00023: KeyStore file 'C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\configuration\application.keystore' does not exist. Used blank.
+2026-10-02 05:27:57,230 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = mysql
+2026-10-02 05:27:57,238 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY01084: KeyStore C:\SN8\git\WP-Login\LoginSrv\target\server\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2026-10-02 05:27:57,240 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 35) WFLYUT0112: The value 'require-host-http11' attribute in the '/subsystem=undertow/server=default-server/http-listener=default' resource is 'false', which will be ignored. The server now always enforces the RFC 9112 requirement that HTTP/1.1 request messages include a Host header.
+2026-10-02 05:27:57,255 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 23) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "MySQLDS")
+]) - Stage: (RUNTIME) - failure description: "WFLYCTL0211: Cannot resolve expression '${org.wildfly.datasources.mysql.user-name,env.MYSQL_USER,env.OPENSHIFT_MYSQL_DB_USERNAME}'"
+2026-10-02 05:27:57,278 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2026-10-02 05:27:57,279 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) Queuing requests.
+2026-10-02 05:27:57,280 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2026-10-02 05:27:57,301 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080

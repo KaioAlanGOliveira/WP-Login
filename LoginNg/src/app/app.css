@@ -1,0 +1,29 @@
+:host {
+	display: block;
+}
+
+.login-container {
+	display: grid;
+	min-height: 100vh;
+	place-items: center;
+	padding: 1.5rem;
+}
+
+p-card {
+	display: block;
+	width: min(100%, 24rem);
+}
+
+form,
+.form-field {
+	display: grid;
+	gap: 0.75rem;
+}
+
+form {
+	gap: 1.25rem;
+}
+
+.mensagem {
+	color: var(--p-red-500);
+}
